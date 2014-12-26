@@ -4,7 +4,7 @@
   <title><![CDATA[Rubycheck]]></title>
   <link href="http://rubycheck.github.io/rubycheck.com/atom.xml" rel="self"/>
   <link href="http://rubycheck.github.io/rubycheck.com/"/>
-  <updated>2014-12-26T15:14:30+01:00</updated>
+  <updated>2014-12-26T16:20:48+01:00</updated>
   <id>http://rubycheck.github.io/rubycheck.com/</id>
   <author>
     <name><![CDATA[Rubycheck team]]></name>
@@ -36,6 +36,20 @@
 <p>Part of excerpt.</p>
 
 <!-- more -->
+
+
+
+
+<p id="answer1">
+  You&#8217;ve chosen answer 1 and you are right
+</p>
+
+
+
+
+<p id="answer2">
+  You&#8217;ve chosen answer 2 and you are wrong
+</p>
 
 
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <strong>suscipit lobortis</strong> nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis <em>dolore</em> te feugait nulla facilisi.
