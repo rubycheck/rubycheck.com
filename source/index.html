@@ -4,20 +4,27 @@ layout: default
 
 <div class="blog-index">
   {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page_path}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page_path}}">Newer &rarr;</a>
-    {% endif %}
+  <div class="subscribe-form">
+    <p>
+      Are you a professional or a hobbyist? Receive one Ruby question weekly
+    </p>
+    <div id='mc_embed_signup'>
+      <form action='//razorbear.us9.list-manage.com/subscribe/post?u=90f7cdde25b0281e9dcb133bb&amp;id=002a84b922' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' style='padding: 6px 0 10px 0'>
+        <div id='mc_embed_signup_scroll' style='text-align: center;'>
+          <input name='EMAIL' placeholder='Enter your e-mail address' required='' type='email' value=''>
+          <button name='subscribe' type='submit' value='Subscribe'>
+          Find out
+          </button>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
+          <div style='position: absolute; left: -5000px;'>
+            <input name='b_90f7cdde25b0281e9dcb133bb_002a84b922' tabindex='-1' type='text' value=''>
+          </div>
+        </div>
+      </form>
+    </div>
+    <p>
+      No spam. Easy to unsubscribe.
+    </p>
   </div>
 </div>
 <aside class="sidebar">
