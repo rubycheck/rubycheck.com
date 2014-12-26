@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://rubycheck.github.io/rubycheck.com/sitemap.xml 

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Rubycheck]]></title>
+  <link href="http://rubycheck.github.io/rubycheck.com/atom.xml" rel="self"/>
+  <link href="http://rubycheck.github.io/rubycheck.com/"/>
+  <updated>2014-12-26T15:14:30+01:00</updated>
+  <id>http://rubycheck.github.io/rubycheck.com/</id>
+  <author>
+    <name><![CDATA[Rubycheck team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Issue 2]]></title>
+    <link href="http://rubycheck.github.io/rubycheck.com/blog/2014/12/26/issue-2/"/>
+    <updated>2014-12-26T14:30:24+01:00</updated>
+    <id>http://rubycheck.github.io/rubycheck.com/blog/2014/12/26/issue-2</id>
+    <content type="html"><![CDATA[<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Blog</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">title</span>
+</span><span class='line'>    <span class="s1">&#39;Ruby Check&#39;</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Part of excerpt.</p>
+
+<!-- more -->
+
+
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <strong>suscipit lobortis</strong> nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis <em>dolore</em> te feugait nulla facilisi.
+Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">return</span> <span class="s2">&quot;foo&quot;</span> <span class="k">if</span> <span class="n">foo?</span>
+</span><span class='line'><span class="c1"># comment</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Issue 1]]></title>
+    <link href="http://rubycheck.github.io/rubycheck.com/blog/2014/12/26/issue-1/"/>
+    <updated>2014-12-26T14:30:20+01:00</updated>
+    <id>http://rubycheck.github.io/rubycheck.com/blog/2014/12/26/issue-1</id>
+    <content type="html"><![CDATA[<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">foo</span> <span class="o">=</span> <span class="ss">:bar</span> <span class="k">if</span> <span class="kp">false</span>
+</span><span class='line'><span class="n">foo</span><span class="o">.</span><span class="n">nil?</span> <span class="c1"># =&gt; raises an error because...?</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This is visible in archives page.</p>
+
+<!-- more -->
+
+
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <strong>suscipit lobortis</strong> nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis <em>dolore</em> te feugait nulla facilisi.</p>
+
+<h3>Header</h3>
+
+<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+
+<p>This is a list:</p>
+
+<ul>
+<li>item 1</li>
+<li>item 2</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
