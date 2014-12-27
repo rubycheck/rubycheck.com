@@ -2,18 +2,18 @@
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
 // If you need a handy color picker try http://hslpicker.com
 
-//$header-bg: #263347;
-//$subtitle-color: lighten($header-bg, 58);
-//$nav-bg: desaturate(lighten(#8fc17a, 18), 5);
-//$nav-bg-front: image-url('noise.png');
-//$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
-//$sidebar-bg: desaturate(#eceff5, 8);
-//$sidebar-link-color: saturate(#526f9a, 10);
-//$sidebar-link-color-hover: darken(#7ab662, 9);
-//$footer-bg: #ccc !default;
-//$footer-bg-front: image-url('noise.png');
-//$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
-
+$rubycheck-bg-base: #ffffff;
+$rubycheck-color-base: #005;
+$title-color: $rubycheck-color-base;
+$subtitle-color: desaturate(lighten($rubycheck-color-base, 30), 60);
+$page-bg: darken($rubycheck-bg-base, 6);
+$header-bg: darken($rubycheck-bg-base, 4);
+$nav-bg: desaturate(lighten($rubycheck-color-base, 30), 60);
+$footer-bg: desaturate(lighten($rubycheck-color-base, 30), 60);
+$nav-color: darken(#ffffff, 6);
+$footer-color: darken(#ffffff, 25);
+$footer-link-color: $footer-color;
+$footer-link-color-hover: $footer-color;
 
 /* To use the light Solarized highlighting theme uncomment the following line */
 //$solarized: light;
