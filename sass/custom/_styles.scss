@@ -15,6 +15,25 @@
   padding-top: 2em;
   padding-left: 55px;
   padding-right: 55px;
+
+  input, button {
+    border-radius: 6px;
+    border: 1px solid #999;
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 10px 16px;
+    margin-bottom: 5px;
+  }
+
+  button {
+    background-color: $rubycheck-color-base;
+    border-color: $rubycheck-color-base;
+    color: #ffffff;
+    &:hover {
+      background-color: lighten($rubycheck-color-base, 15);
+      border-color: lighten($rubycheck-color-base, 15);
+    }
+  }
 }
 
 #blog-archives .entry-content {
